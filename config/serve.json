@@ -1,0 +1,35 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://nitordev.sharepoint.com/sites/HMETest/EnduranceTest",
+      "customActions": {
+        "875cdad8-999d-4b1f-aeeb-2275a5dbe3d6": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top": "Header of the page",
+            "Bottom": "Footer of the page",
+            "elementId" : "O365_MainLink_Help_container",
+            "elementId1" : "sp-appBar"
+          }
+        }
+      }
+    },
+    "applicationcustmizer": {
+      "pageUrl": "https://nitordev.sharepoint.com/sites/HMETest/EnduranceTest",
+      "customActions": {
+        "875cdad8-999d-4b1f-aeeb-2275a5dbe3d6": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "Top": "Header of the page",
+            "Bottom": "Footer of the page",
+            "elementId" : "O365_MainLink_Help_container",
+            "elementId1" : "sp-appBar"
+          }
+        }
+      }
+    }
+  }
+}

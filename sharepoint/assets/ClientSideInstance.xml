@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="Applicationcustmizer"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="875cdad8-999d-4b1f-aeeb-2275a5dbe3d6"
+        Properties="{&quot;elementId&quot;:&quot;O365_MainLink_Help_container&quot;}">
+    </ClientSideComponentInstance>
+</Elements>

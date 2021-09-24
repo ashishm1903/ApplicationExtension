@@ -1,0 +1,54 @@
+.acdemoapp {
+    .topPlaceholder {
+      height:60px;
+      
+      line-height:2.5;
+      font-weight:bold;
+      display: flex;
+      align-items: center;
+     
+      // color: red;
+      text-decoration: none;
+      background-color:maroon;
+      padding-left: 1%;
+    }
+  
+    .bottomPlaceholder {
+      height:40px;
+      text-align:left;
+      line-height:2.5;
+      font-weight:bold;
+      display: flex;
+      align-items: center;
+      padding-left: 3%;
+      color:brown;
+      color:mintcream;
+      background-color:maroon;
+      
+    }
+    .hyperlink{
+      padding-left: 1%;
+      color:mintcream;
+    }
+    .hyperHome{
+      margin-left: 2%;
+      color:mintcream;
+    }
+    .footerLink{
+      text-align: right;
+      padding-left: 53%;
+      color:mintcream;
+      margin-right: 140px;
+      
+    }
+    .Contactus{
+      text-align: right;
+     color:mintcream;
+    }
+    .img{
+      color:mintcream;
+      margin-right: 10px;
+    }
+    
+    
+  }

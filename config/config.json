@@ -1,0 +1,23 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "applicationcustmizer-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/applicationcustmizer/ApplicationcustmizerApplicationCustomizer.js",
+          "manifest": "./src/extensions/applicationcustmizer/ApplicationcustmizerApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "bootstrap": {
+      "path": "node_modules/bootstrap/dist/css/bootstrap.min.css",
+      "globalName": "bootstrap"
+    }
+  },
+  "localizedResources": {
+    "ApplicationcustmizerApplicationCustomizerStrings": "lib/extensions/applicationcustmizer/loc/{locale}.js"
+  }
+}
